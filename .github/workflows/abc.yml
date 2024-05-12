@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple echo
-        run: echo "something running"
+        run: echo "learning1"
