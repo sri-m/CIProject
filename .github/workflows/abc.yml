@@ -1,7 +1,7 @@
 name: simple work flow
 'on': push
 jobs:
-  cool_job:
+  name:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple echo
