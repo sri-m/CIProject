@@ -5,4 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple echo
-        run: echo "learning"
+        run: ls
+      - name: reading
+        run: actions/checkout@V3
+      - name: checking
+        run: ls
+        
