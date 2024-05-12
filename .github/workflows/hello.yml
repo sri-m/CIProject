@@ -6,12 +6,6 @@ jobs:
       country: India
     runs-on: ubuntu-latest
     steps:
-      - name: Run a simple echo
-        run: ls
-      - name: reading
-        run: actions/checkout@v3
-      - name: checking
-        run: ls
       - name: use env
         run: echo "$country is my country"
         
