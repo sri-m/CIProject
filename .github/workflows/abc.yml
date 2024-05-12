@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple echo
-        run: echo "learning1"
+        run: print(f"calculation {2 + 3} == 5")
+        shell: python
